@@ -29,7 +29,7 @@ class App extends React.Component {
     return (
       <div className="center">
         <h1>Video Player</h1>
-        <p>Select radio button to change video.</p>
+        <p>Select the radio button to change video.</p>
         <Menu chooseVideo={this.chooseVideo}/>
         <Video src={this.state.src}/>
       </div>
